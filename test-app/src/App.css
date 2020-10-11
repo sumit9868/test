@@ -1,0 +1,9 @@
+.myrow{
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+}
+
+.myrow h2{
+  background-color: blue;
+}
