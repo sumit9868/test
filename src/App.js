@@ -1,4 +1,8 @@
 import React from 'react';
+import Vartika from './Vartika'
+import Garima from './Garima'
+import Chirag from './Chirag'
+
 // import logo from './logo.svg';
 import './App.css';
 import MyResume from './MyResume'
@@ -11,7 +15,9 @@ function App() {
      <h2>efg</h2>
      </div>
     </div>
-    <MyResume/>
+    <Vartika/>
+    <Garima/>
+    <Chirag/>
     </div>
   );
 }
