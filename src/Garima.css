@@ -1,0 +1,38 @@
+body{
+  background-color: #f4e1d2;
+}
+@media (min-width: 800px) {
+  .sec{
+    display:flex;
+    flex-direction: row;
+  }
+  }
+.name__contact{
+  border: 5px solid;
+  border-color: black;
+  margin: 10px;
+  background-image: linear-gradient(to right,#a2b9bc, #6b5b95);
+  border: 5px solid;
+  border-color: black;
+  padding: 20px;
+  }
+  .name__skills{
+    flex:2.5;
+    background-image: linear-gradient(to right,#eca1a6, #e3eaa7);
+    margin: 10px;
+    border: 5px solid;
+    border-color: black;
+    padding: 20px;
+  }
+  .name__img{
+    flex:1;
+    margin: 10px;
+    padding : 50px;
+  }
+
+img{
+    border-radius: 50%;
+   flex: 1;
+   height:400px;
+   border: 3px solid black;
+}
