@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  box-sizing: border-box;
+  padding: 5px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.name__contact{
+  padding: 50px;
+  margin: 10px;
+  text-align : left;
+  border: 7px solid black;
+			background-image: linear-gradient(to right,#020236, #B7FDFE);
+}
+.sec2{
+  display: flex;
+}
+span{
+  font-weight: bold;
+			background-color: #FCD1B8;
+			color: black;
+			font-family: "Lucida Console", Courier, monospace;
+}
+img{
+  border-radius: 50%;
+  flex: 1;
+  border: 3px solid black;
+}
+.name__skills{
+  flex: 2;
+  padding: 50px;
+  margin: 10px;
+  text-align: left;
+  border: 7px solid black;
+			background-image: linear-gradient(to right,#020236, #B7FDFE);
+}
+ul{
+  list-style-position: inside;
+}
+body{
+  background-image: url(https://th.bing.com/th/id/OIP.Nsk3zvMb2svjXD7_w79AYQHaE-?pid=Api&rs=1);
+			color: #FFBAC6;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 2vw;
+}
+@media screen and (max-width: 800px) {
+  .name__skills, .name__contact
+    {
+    width: 100%;
+  }
+  img{
+    width: 100%;
+  }
+}
