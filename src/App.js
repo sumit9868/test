@@ -1,5 +1,5 @@
 import React from 'react';
-import Vartika from './Vartika'
+import Vertika from './Vertika'
 import Garima from './Garima'
 import Chirag from './Chirag'
 import MyResume from './MyResume'
@@ -15,10 +15,10 @@ function App() {
      <h2>efg</h2>
      </div>
     </div> */}
-    <MyResume/>
-    <Vartika/>
-    <Garima/>
-    <Chirag/>
+    {/* <MyResume/> */}
+    <Vertika/>
+    {/* <Garima/>
+    <Chirag/> */}
     </div>
   );
 }

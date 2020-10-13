@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Vertika from './Media/vertika_profile.jpg'
+import './Vertika.css'
 // use this file as basic layout and name of classes of your css
 function MyResume() {
     return(
@@ -32,11 +33,11 @@ function MyResume() {
 				</p>
             </div>
             <div className="name__img">
-                    <img src={vertika_profile} alt="Profile Photo"/>
+                    <img src={Vertika} alt="Profile Photo"/>
             </div>
         </section>
         </div>
-    </div>
+    
     );
 }
 
