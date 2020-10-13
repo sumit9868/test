@@ -1,1 +1,36 @@
 /* write css for your component in {name}.css file for your component */
+.name__resume{
+    display: flex;
+    flex-direction: column;
+}
+.skills__and__img{
+    display: flex;
+    flex-direction: row;
+}
+
+.name__skills{
+    display: flex;
+    flex-direction: column;
+    flex: 0.9;
+    border: solid black 2px;
+    font-size: small;
+}
+
+.name__img{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+    border: solid black 2px;
+}
+
+ul{
+    display: inline;
+}
+
+.name__contact{
+    display: flex;
+}
