@@ -3,13 +3,13 @@ import Vertika from './Media/vertika_profile.jpg'
 import './Vertika.css'
 // use this file as basic layout and name of classes of your css
 function MyResume() {
-    return(
-      <div className="name__resume">
-            <div className="name__contact">
-                   <span> Name </span>- Vertika Sah
-				<br/><br/>
+	return (
+		<div className="name__resume">
+			<div className="name__contact">
+				<span> Name </span>- Vertika Sah
+				<br /><br />
 				<span>Contact Number</span> - 9818406177
-				<br/><br/>
+				<br /><br />
 				<span>Profile</span>
 				<ul>
 					<li>
@@ -19,26 +19,26 @@ function MyResume() {
 						<a href="https://github.com/vertika-gif">Github Profile</a>
 					</li>
 				</ul>
-            </div>
-        <section class="sec2">
-            <div className="name__skills">
-                <p>
-					<span>Skills</span> - C++(moderate), DSA(moderate), c(beginner)
+			</div>
+			<section class="sec2">
+				<div className="name__skills">
+					<p>
+						<span>Skills</span> - C++(moderate), DSA(moderate), c(beginner)
 				</p>
-				<p>
-					<span>Education </span>- 
+					<p>
+						<span>Education </span>-
 						School - Bal Bharti Public School, Pitampura
-						<br/><br/>
+						<br /><br />
 						College - Netaji Subhas University of Technology
 				</p>
-            </div>
-            <div className="name__img">
-                    <img src={Vertika} alt="Profile Photo"/>
-            </div>
-        </section>
-        </div>
-    
-    );
+				</div>
+				<div className="name__img">
+					<img src={Vertika} alt="Profile Photo" />
+				</div>
+			</section>
+		</div>
+
+	);
 }
 
 export default MyResume;

@@ -17,8 +17,8 @@ function App() {
     </div> */}
     {/* <MyResume/> */}
     <Vertika/>
-    {/* <Garima/>
-    <Chirag/> */}
+    <Garima/>
+    {/* <Chirag/> */}
     </div>
   );
 }
